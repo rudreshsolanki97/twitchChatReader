@@ -1,0 +1,39 @@
+{
+  "name": "twitchchatreader",
+  "version": "1.0.0",
+  "description": "a chat reading bot for twitch.tv stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon index.js",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudreshsolanki97/twitchChatReader.git"
+  },
+  "keywords": [
+    "nodejs",
+    "redis",
+    "twitch",
+    "bot"
+  ],
+  "author": "rudreshsolanki97",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rudreshsolanki97/twitchChatReader/issues"
+  },
+  "homepage": "https://github.com/rudreshsolanki97/twitchChatReader#readme",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "redis": "^2.8.0",
+    "tmi.js": "^1.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

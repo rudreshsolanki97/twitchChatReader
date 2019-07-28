@@ -6,7 +6,7 @@ exports.onConnectionHandler = (address, port) => {
 }
 
 exports.onMessageHandler = async (target, context, message, self) =>  {
-  const words = message.replace(/,/g, "").split(" ");
+  const words = message.replace(/,/g, " ").split(" ");
 console.log(`Message recvd. : ${message} Target: ${target} From: ${context.username} Self: ${self}`)
 // console.log(context);
 

@@ -1,5 +1,5 @@
 const redis = require("redis");
-const tmiService = require("./services/tmi-service");
+const tmiService = require("./services/tmi-handler");
 const tmi = require("tmi.js");
 
 require("bluebird").promisifyAll(redis);
